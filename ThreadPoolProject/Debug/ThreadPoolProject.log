@@ -1,0 +1,20 @@
+﻿生成启动时间为 2014/6/14 13:15:55。
+     1>项目“d:\我的资料库\documents\visual studio 2013\Projects\ThreadPoolProject\ThreadPoolProject\ThreadPoolProject.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt MyThread.cpp
+         MyThread.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"d:\我的资料库\documents\visual studio 2013\Projects\ThreadPoolProject\Debug\ThreadPoolProject.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"d:\我的资料库\documents\visual studio 2013\Projects\ThreadPoolProject\Debug\ThreadPoolProject.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"d:\我的资料库\documents\visual studio 2013\Projects\ThreadPoolProject\Debug\ThreadPoolProject.lib" /MACHINE:X86 Debug\BusyThreadContainer.obj
+         Debug\IdleThreadContainer.obj
+         Debug\MyTask.obj
+         Debug\Task.obj
+         Debug\main.obj
+         Debug\MyThread.obj
+         Debug\MyThreadPool.obj
+         Debug\TaskContainer.obj
+         ThreadPoolProject.vcxproj -> d:\我的资料库\documents\visual studio 2013\Projects\ThreadPoolProject\Debug\ThreadPoolProject.exe
+     1>已完成生成项目“d:\我的资料库\documents\visual studio 2013\Projects\ThreadPoolProject\ThreadPoolProject\ThreadPoolProject.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.11
