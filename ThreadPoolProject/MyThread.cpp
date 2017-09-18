@@ -33,7 +33,7 @@ void MyThread::StartThread()  //将MyThread的Run方法与thread_相绑定，this表示类的
 {
 	thread_ = thread(&MyThread::Run, this);
 	if (isdetach_ == true)
-		thread_.detach(); //分离
+		thread_.detach(); //分离,不等待线程完成！区别于join(强制等待线程完成！)
 	else
 		thread_.join();
 }

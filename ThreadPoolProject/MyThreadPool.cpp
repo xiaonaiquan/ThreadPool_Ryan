@@ -77,6 +77,7 @@ void MyThreadPool::Start()
 		busy_thread_container_.push(mythread);
 		busy_mutex_.unlock();
 		mythread->StartThread();
+	//	mythread->setisdetach(false); //选择时 join还是detach，默认的是detach（）
 	}
 }
 void MyThreadPool::AddTask(Task *Task, int priority = (PRIORITY::NORMAL))
