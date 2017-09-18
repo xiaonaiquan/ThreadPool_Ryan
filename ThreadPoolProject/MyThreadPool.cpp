@@ -63,12 +63,12 @@ void MyThreadPool::Start()
 			task_mutex_.unlock();
 			continue;
 		}
-		Task *b = task_container_.top();;
+		Task *b = task_container_.top();
 		task_container_.pop();
 		task_mutex_.unlock();
 		
 		idle_mutex_.lock();
-		MyThread *mythread = idle_thread_container_.top();;
+		MyThread *mythread = idle_thread_container_.top();
 		idle_thread_container_.pop();
 		mythread->Assign(b);
 		idle_mutex_.unlock();

@@ -20,7 +20,7 @@ void MyThread::Assign(Task *t)
 }
 void MyThread::Run()
 {
-	cout <<"Thread:"<< threadid_ << " run ";     //调用了Task的Run方法，同时在Task的Run方法结束后，通知线程池将自己从工作容器中移回空闲容器
+	cout <<"Thread:"<< threadid_ << " run " <<endl;     //调用了Task的Run方法，同时在Task的Run方法结束后，通知线程池将自己从工作容器中移回空闲容器
 	task_->Run();
 	mythreadpool_->RemoveThreadFromBusy(this);
 }
